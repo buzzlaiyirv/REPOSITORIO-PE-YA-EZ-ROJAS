@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body{
+    font-family: "Poppins", sans-serif;
+    background-image: url(imagenes/cielob.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+
+
+nav{
+    text-align: center;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a{
+
+    color: rgb(218, 92, 92);
+    font-size: 32px;
+    padding: 0%;
+    font-weight: 600;
+    margin: 30px;
+
+}
+
+.navbar ul li a:hover{
+    color: #6f89d1;
+}
+
+
+
+
+
+
+
+
+
+
+.body1{
+        font-family: "Poppins", sans-serif;
+        background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(82, 82, 82, 0.7)),
+        url(imagenes/inversion.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+}
+
+.titulo1{
+    text-align: center;
+    padding: auto;
+}
+
+.instrucciones1{
+    text-align: center;
+}
+
+
+.navbar1 ul li {
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+.navbar1 ul li a{
+    padding: 20px;
+    color: rgb(218, 92, 92);
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+}
+
+.navbar1 ul li a:hover{
+    color: #6f89d1;
+}
+
+.resultadosTodos{
+    padding: 45px;
+    font-weight: 600;
+    color: #a15cb6;
+    font-size: 26px;
+
+}
+
+
