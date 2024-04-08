@@ -35,7 +35,7 @@
         <label for="inversion">Ingrese la cantidad de capital que quiere invertir para saber cuanto ganara en 1 mes si el banco paga a razon de 2% mensual</label>
         <br>
         <br>
-        <input type="number" id="inversion" placeholder="Invercion">
+        <input type="number" id="inversion" placeholder="Invercion" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <button onclick="calcularInversion()">Calcular Inversion</button>
         <p id="resultado1" class="resultadosTodos"></p> 

@@ -35,11 +35,11 @@
     <div class="instrucciones1">
         <label for="cantHombres">Ingrese la cantidad de Hombres</label>
         <br><br>
-        <input type="number" id="cantHombres" placeholder="Cantidad Hombres">
+        <input type="number" id="cantHombres" placeholder="Cantidad Hombres" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <label for="cantMujeres">Ingrese la cantidad de Mujeres</label>
         <br><br>
-        <input type="number" id="cantMujeres" placeholder="Cantidad de Mujeres">
+        <input type="number" id="cantMujeres" placeholder="Cantidad de Mujeres" onkeypress="return validacionNumeros(event)" required>
         <br> <br><br>
         <button onclick="calcularPorcentajes()">Calcular Porcentajes</button>
         <p id="resultado5" class="resultadosTodos"></p>

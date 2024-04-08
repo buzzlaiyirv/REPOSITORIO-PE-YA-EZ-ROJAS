@@ -34,7 +34,7 @@
     <div class="instrucciones1">
         <label for="costoCompra">Ingrese el costo de la compra para calcular el descuento de 15% que se le hara</label>
         <br><br>
-        <input type="number" id="costoCompra" placeholder="Costo de la Compra">
+        <input type="number" id="costoCompra" placeholder="Costo de la Compra" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <button onclick="calcularDescuento()">Calcular Descuento</button>
         <p id="resultado3" class="resultadosTodos"></p>

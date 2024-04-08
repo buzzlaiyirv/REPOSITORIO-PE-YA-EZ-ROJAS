@@ -34,11 +34,11 @@
     <div class="instrucciones1">
         <label for="fechaNacimiento">Ingrese su fecha de nacimiento</label> 
         <br><br>
-        <input type="date" id="fechaNacimiento" placeholder="Año Naciemiento">
+        <input type="date" id="fechaNacimiento" placeholder="Año Naciemiento" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <label for="añoActual">Ingrese el año actual</label> 
         <br><br>
-        <input type="date" id="añoActual" placeholder="Año Actual">
+        <input type="date" id="añoActual" placeholder="Año Actual" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <button onclick="calcularEdad()">Calcular su edad</button>
         <br>
