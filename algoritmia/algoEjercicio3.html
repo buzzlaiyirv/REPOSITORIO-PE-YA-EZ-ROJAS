@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/logica.js"></script>
+</head>
+<body class="body1">
+    <header>
+        <div class="menu container">
+        <nav class="navbar1">
+            <ul>
+                <li><a href="algoEjercicio3.html">Ejercicio 3</a></li>
+                <li><a href="algoEjercicio2.html">Ejercicio 2</a></li>
+                <li><a href="algoEjercicio1.html">Ejercicio 1</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <div class="titulo1" >
+        <br><br>
+        <h2>Problema 3</h2>
+        <br>
+    </div>
+
+    <div class="instrucciones1">
+           <h3>Dada una lista de palabras, encontrar la palabra que mas numero de caracteres unicos tenga.</h3>
+            <br>
+            <h3>Ejemplo: CASA = 3 (c, a, s) PERRO = 4 (p, e, r, o)</h3>
+            <br>
+            <h3>Considera solamente el alfabeto A -Z, en mayusculas, las palabras ingresadas deberan estar separdas por una coma, no se aceptan espacios.</h3>
+            <br>
+            <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por una coma: " id="p3-input" onkeypress="return validacionLetras(event)" required>
+            <button type="button" class="problema-button" onclick="problema3()" style="margin-top: 1rem;" >Contar Letras</button>
+            <pre class="problema-output" id="p3-output" >Esperando datos ...</pre>
+        
+    </div>
+
+</div>    
+</body>
+</html>

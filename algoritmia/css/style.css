@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(44, 44, 44, 0.7)),
+        url(imagenes/parai.jpg);
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 170px;
+    color: #f5c8c8;
+}
+
+
+nav{
+    text-align: center;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a{
+
+    color: rgb(129, 166, 177);
+    font-size: 32px;
+    padding: 0%;
+    font-weight: 600;
+    margin: 30px;
+
+}
+
+.navbar ul li a:hover{
+    color: #c96fd1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.body1{
+    font-family: "Poppins", sans-serif;
+    background-image:url(imagenes/54336.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo1{
+text-align: center;
+font-size: 32px;
+color: #f5c8c8;
+}
+
+.instrucciones1{
+text-align: center;
+color: black;
+font-size: 20px;
+}
+
+
+.navbar1 ul li {
+display: inline-block;
+position: relative;
+float: right;
+}
+
+.navbar1 ul li a{
+padding: 20px;
+color: rgb(190, 196, 255);
+font-weight: 600;
+font-size: 30px;
+display: block;
+font-weight: 600;
+}
+
+.navbar1 ul li a:hover{
+color: #d98adb;
+}
+
+.resultadosTodos{
+padding: 45px;
+font-weight: 600;
+color: #a15cb6;
+font-size: 26px;
+
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+    border: none;
+    background: #FEFBD2;
+    border-radius: 10px;
+    color: #771C30;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    margin-top: 5px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  button[type="button"]{
+    color: #771C30;
+    background-color: #E2DAA9;
+    font-size: x-large;
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 150px;
+    height:30px;
+}

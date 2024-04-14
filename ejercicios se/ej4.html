@@ -34,23 +34,23 @@
     <div class="instrucciones1">
         <label for="calPar1">Ingrese su calificacion del primer parcial</label>
         <br>
-        <input type="number" id="calPar1" placeholder="Calificacion Parcial 1">
+        <input type="number" id="calPar1" placeholder="Calificacion Parcial 1" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="calPar2">Ingrese su calificacion del segundo parcial</label>
         <br>
-        <input type="number" id="calPar2" placeholder="Calificacion Parcial 2">
+        <input type="number" id="calPar2" placeholder="Calificacion Parcial 2" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="calPar3">Ingrese su calificacion del tercer parcial</label>
         <br>
-        <input type="number" id="calPar3" placeholder="Calificacion Parcial 3">
+        <input type="number" id="calPar3" placeholder="Calificacion Parcial 3" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="calExamen">Ingrese su calificacion del examen final</label>
         <br>
-        <input type="number" id="calExamen" placeholder="Calificacion del Examen">
+        <input type="number" id="calExamen" placeholder="Calificacion del Examen" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="calTrabajo">Ingrese la calificacion del trabajo</label>
         <br>
-        <input type="number" id="calTrabajo" placeholder="Calificacion del Trabajo">
+        <input type="number" id="calTrabajo" placeholder="Calificacion del Trabajo" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <button onclick="calcularCalFinal()">Calcular calificacion final</button>
         <p id="resultado4" class="resultadosTodos"></p>

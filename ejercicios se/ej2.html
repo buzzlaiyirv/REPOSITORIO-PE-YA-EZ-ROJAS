@@ -35,20 +35,20 @@
     <div class="instrucciones1">
         <label for="sueldoBase">Ingrese su sueldo base</label>
         <br>
-        <input type="number" id="sueldoBase" placeholder="sueldoBase">
+        <input type="number" id="sueldoBase" placeholder="sueldoBase" onkeypress="return validacionNumeros(event)" required>
         <br>
         <br>
         <label for="venta1">Ingrese su venta 1</label>
         <br>
-        <input type="number" id="venta1" placeholder="venta1">
+        <input type="number" id="venta1" placeholder="venta1" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="venta2">Ingrese su venta 2</label>
         <br>
-        <input type="number" id="venta2" placeholder="venta2">
+        <input type="number" id="venta2" placeholder="venta2" onkeypress="return validacionNumeros(event)" required>
         <br><br>
         <label for="venta3">Ingrese su venta 3</label>
         <br>
-        <input type="number" id="venta3" placeholder="venta3">
+        <input type="number" id="venta3" placeholder="venta3" onkeypress="return validacionNumeros(event)" required>
         <br><br><br>
         <button onclick="calcularComisiones()">Calcular Comisiones</button>
         <br>
